@@ -1,7 +1,7 @@
 FROM python:3
 
 ADD source.py /
-ADD HashtagToAnalyse.txt
+ADD HashtagToAnalyse.txt /
 
 RUN pip install tweepy
 RUN pip install textblob
